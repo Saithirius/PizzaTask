@@ -1,0 +1,17 @@
+.menu{
+    width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+}
+h2{
+    font-size: 40px;
+    color: white;
+    text-shadow: black 1px 1px 0, black -1px -1px 0,
+    black -1px 1px 0, black 1px -1px 0;
+}
+.products{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 32%);
+    grid-gap: 20px;
+}
